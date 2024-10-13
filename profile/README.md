@@ -3,16 +3,6 @@
 
 **FuelFix** is a mobile and web application designed to help vehicle owners and drivers find assistance during breakdowns or fuel shortages. The app connects users with nearby mechanics and fuel stations in real-time and includes offline functionality to ensure support even in low-network areas.
 
-## **Table of Contents** 📑
-1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Tech Stack](#tech-stack)
-4. [Usage](#usage)
-5. [API Documentation](#api-documentation)
-6. [Contributing](#contributing)
-7. [License](#license)
-8. [Contact](#contact)
-
 ## **Introduction** 💡
 Vehicle breakdowns and fuel shortages can be highly inconvenient, especially when traveling in remote or unfamiliar areas. **FuelFix** provides a reliable solution by offering real-time access to nearby mechanics and fuel stations. The app also facilitates secure payments and allows communication between users and service providers.
 
@@ -51,39 +41,7 @@ Vehicle breakdowns and fuel shortages can be highly inconvenient, especially whe
 4. **Payment**: Pay for services securely through the app.
 
 ## **API Documentation** 📜
-You can access the full API documentation for FuelFix via [Swagger](http://localhost:4000/api-docs) (once the backend server is running).
-
-### **Key Endpoints**:
-- `POST /api/v1/auth/register`: Register a new user.
-- `POST /api/v1/auth/login`: Login to the system.
-- `GET /api/v1/services`: Fetch nearby mechanics and fuel stations.
-- `POST /api/v1/request`: Make a service request (breakdown or fuel).
-- `POST /api/v1/payments`: Process a payment for service.
-
-## **Contributing** 🤝
-We welcome contributions to **FuelFix**! To get started:
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix:
-   ```bash
-   git checkout -b feature/my-new-feature
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "feat: Add a new feature"
-   ```
-4. Push to your branch:
-   ```bash
-   git push origin feature/my-new-feature
-   ```
-5. Submit a pull request (PR) to the `main` branch.
-
-### **Contribution Guidelines** 📝
-- Follow [GitHub Flow](https://guides.github.com/introduction/flow/).
-- Write clear commit messages.
-- Ensure your code passes tests before submitting a PR.
-
-## **License** 📄
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+You can access the full API documentation for FuelFix (once the backend server is running).
 
 ## **Contact** 📧
 For any questions or support, please contact:
